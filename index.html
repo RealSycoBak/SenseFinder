@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="SenseFinder">
+  <meta name="description" content="Find the right sense for your gameplay!">
+  <title>Sense Finder</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="imgs/mouse.png" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="title"><span id="txt1">Sense</span>Finder
+    <img src="imgs/mouse.png" width="100px" height="80px" draggable="false"/>
+    </div>
+    <div id="calcarea">
+  <label>AVG pro EDPI</label>
+      <br />
+  <input id="avgEDPI" type="text" value="280">
+   <br />
+       <div style="padding: 10px;">
+  <label>Your current Mouse DPI</label>
+      <br />
+  <input id="DPI" type="text" value="800">
+       </div>
+      <br/>
+      <div style="padding: 5px;">
+  <button style="background-color: black; color: white; border-radius: 20px; padding: 5px; cursor: pointer;" id="calc">Start Calculations</button>
+      </div>
+  <br />
+        
+  <label style="color: red">High Sense</label>
+  <h2 style="color: red" id="max"></h2>
+  <label style="color: orange">Mid Sense</label>
+  <h2 style="color: orange" id="mid"></h2>
+  <label style="color: yellow">Low Sense</label>
+  <h2 style="color: yellow" id="min"></h2>
+  <br />
+  <label>Which sense do you want to trash?</label>
+  <button style="background-color: red; cursor: pointer;" id="trashHIGH">HIGH</button>
+  <button style="background-color: orange; cursor: pointer;" id="trashMID">MID</button>
+  <button style="background-color: yellow; cursor: pointer;" id="trashLOW">LOW</button>
+    </div>
+  <script src="script.js"></script>
+  </div>
+
+</body>
+
+</html>

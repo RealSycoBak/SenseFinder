@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+ margin: 0;
+}
+
+#main {
+  position: fixed;
+  background-color: #0e0e34;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#title{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 80px;
+}
+#calcarea{
+  margin-top: 50px;
+  text-align: center;
+  color: gray;
+}
+
+#txt1 {
+  color: black;
+  animation-name: txteffect;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes txteffect {
+  0% {
+    color: black;
+  }
+  100% {
+    color: #d92626;
+  }
+}
+input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width: 100px;
+  color: red;
+}
