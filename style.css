@@ -19,10 +19,10 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 80px;
+  font-size: 8vh;
 }
 #calcarea{
-  margin-top: 50px;
+  margin-top: 3vh;
   text-align: center;
   color: gray;
 }
